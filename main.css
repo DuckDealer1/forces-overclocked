@@ -285,6 +285,10 @@ h1 {
 	margin-bottom: -0.25em;
 }
 
+.hbreak {
+	white-space: normal;
+}
+
 .credits {
 	margin-top: -1em;
 }
@@ -294,6 +298,16 @@ h2 {
 	color: #b60d04;
 	margin-top: -0.5em;
 	margin-left: 2.125em;
+}
+
+.ytembed {
+	max-width: 100%;
+}
+
+@media (max-width: 660px) {
+	.ytembed {
+		height: 0%;
+	}
 }
 
 footer {
