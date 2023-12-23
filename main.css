@@ -1,0 +1,368 @@
+@font-face {
+	font-family: 'Futura Bold';
+	src: url('img/fonts/Futura-Bold.otf');
+}
+
+@font-face {
+	font-family: 'Futura';
+	src: url('img/fonts/Futura-Heavy.otf');
+}
+
+a:link {
+	text-decoration: none;
+	color: #e8d8c0;
+}
+
+a:visited {
+	color: #e8d8c0;
+}
+
+a:hover {
+	color: #b60d04;
+	text-decoration: underline;
+}
+
+::selection {
+	color: #e8d8c0;
+	background: #b60d04;
+}
+
+a::selection {
+	color: #b60d04;
+	background: #e8d8c0;
+	text-decoration: underline;
+}
+
+html {
+	background: url(img/bg.png), url(img/20231217174701_1.png);
+	background-position: 50% 0%, 100%;
+	background-size: 1050px 102%, cover;
+	background-repeat: no-repeat, no-repeat;
+}
+
+#bgvideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	filter: blur(1.8px);
+	z-index: -9;
+}
+
+body {
+	background-color: transparent;
+	height: 100%;
+	width: 100%;
+	margin: 0px auto;
+	overflow-x: hidden;
+}
+
+.wrapper {
+	height: 100%;
+	max-width: 1000px;
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	background: url(img/bg.png);
+	padding-right: 3.125em;
+}
+
+.wrapperhead {
+	height: 100%;
+	max-width: 1050px;
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.headbgbox {
+	max-width: 1000px;
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+	rotate: -6deg;
+	margin-bottom: 2em;
+}
+
+.headimg {
+	position: relative;
+	margin-bottom: -14em;
+	max-width: 100%;
+	z-index: 0;
+}
+
+.wrapperseem {
+	margin-top: -8em;
+	background: url(img/bg.png);
+	padding-top: 8em;
+}
+
+.logo {
+	width: 250px;
+	height:250px;
+	position: relative;
+	bottom: 2.6em;
+	right: 0.9em;
+	margin-bottom: -8em;
+	z-index: 2;
+}
+
+.FOlogo {
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.navbg {
+	position: relative;
+	bottom: 1.8em;
+	right: 2.3em;
+	background-color: #181818;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-right: 67em;
+	z-index: 1;
+}
+
+.menuitems {
+	position: relative;
+	left: 7.5em;
+	top: 1.5em;
+	width: 47em;
+	z-index: 2
+}
+
+.button {
+	font-family: Futura Bold;
+	font-size: 1.2rem;
+	text-decoration: none;
+	background-color: #b60d04;
+	color: #e8d8c0;
+	padding: 0.85rem 3rem;
+	width: 200px;
+	height: 150px; 
+}
+
+.button:link {
+	color: #e8d8c0;
+}
+
+.button:visited {
+	color: #e8d8c0;
+}
+
+.button:hover {
+	background-color: #e8d8c0;
+	color: #b60d04;
+	text-decoration: none;
+}
+
+@media (max-width: 1049px) {
+	.wrapperseem {
+		margin-top: -18em;
+		padding-top: 12em;
+	}
+	
+	.logo {
+		position: relative;
+		bottom: 0px;
+		right: 0px;
+		top: 1em;
+		left: 5em;
+	}
+	.navbg {
+		position: relative;
+		bottom: 7.2em;
+		right: 2.3em;
+		background-color: #181818;
+		padding-top: 2em;
+		padding-bottom: 7.2em;
+		padding-right: 67em;
+		z-index: 1;
+	}
+	.menuitems {
+		position: relative;
+		left: 17em;
+		top: 1.5em;
+		width: 29em;
+		line-height: 3.4em;
+		z-index: 2
+	}
+}
+
+@media (max-width: 800px) {
+	.wrapperseem {
+		margin-top: -14em;
+		padding-top: 12em;
+	}
+	.logo {
+		position: relative;
+		right: 0px;
+		top: -3.6em;
+		left: 4.2em;
+	}
+	.navbg {
+		position: relative;
+		bottom: 3.2em;
+		right: 2.3em;
+		background-color: #181818;
+		padding-top: 2em;
+		padding-bottom: 3.2em;
+		padding-right: 67em;
+		z-index: 1;
+	}
+	.menuitems {
+		position: relative;
+		left: 0px;
+		top: 1.5em;
+		width: 42em;
+		line-height: 3em;
+		z-index: 2
+	}
+	.button {
+		font-size: 0.9rem;
+		padding: 0.8rem 2.5rem;
+		width: 200px;
+		height: 150px; 
+	}
+}
+
+@media (max-width: 657px) {
+	.wrapperseem {
+		margin-top: -18em;
+		padding-top: 12em;
+	}
+	.logo {
+		position: relative;
+		right: 0px;
+		top: -3.6em;
+		left: 4.2em;
+	}
+	.navbg {
+		position: relative;
+		bottom: 7.2em;
+		right: 2.3em;
+		background-color: #181818;
+		padding-top: 2em;
+		padding-bottom: 7.2em;
+		padding-right: 67em;
+		z-index: 1;
+	}
+	.menuitems {
+		position: relative;
+		left: -0.4em;
+		top: 1.5em;
+		width: 24em;
+		line-height: 3em;
+		z-index: 2
+	}
+	.button {
+		font-size: 0.9rem;
+		padding: 0.8rem 2.5rem;
+		width: 200px;
+		height: 150px; 
+	}
+}
+
+h1 {
+	font-family: Futura Bold;
+	margin-top: 0px;
+	color: #e8d8c0;
+	margin-bottom: -0.8em;
+	margin-left: 1.6em;
+	white-space: nowrap;
+}
+
+.att {
+	margin-bottom: -0.25em;
+}
+
+.credits {
+	margin-top: -1em;
+}
+
+h2 {
+	font-family: Futura;
+	color: #b60d04;
+	margin-top: -0.5em;
+	margin-left: 2.125em;
+}
+
+footer {
+	font-family: Futura;
+	color: #e8d8c0;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	margin-left: 1.6em;
+}
+
+footer a:link {
+	color: #e8d8c0;
+	text-decoration: underline;
+}
+
+footer a:visited {
+	color: #e8d8c0;
+}
+
+footer a:hover {
+	color: #b60d04;
+	text-decoration: none;
+}
+
+.teamlogo {
+	margin-bottom: -1em;
+}
+
+.socials {
+	position: relative;
+	bottom: 0.6em;
+	letter-spacing: 2px;
+	margin-bottom: -1.5em;
+}
+
+.twtlink {
+	position: relative;
+	top: 0.05em;
+}
+
+.credithead {
+	color: #e8d8c0;
+}
+
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin-bottom: -1.5em;
+}
+
+.dot {
+	height: 0px;
+	width: 0px;
+	background-color: transparent;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active {
+	background-color: transparent;
+}
+
+.fade {
+	animation-name: fade;
+	animation-duration: 1s;
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
