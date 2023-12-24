@@ -332,9 +332,28 @@ b {
 	margin-bottom: 1em;
 }
 
+.exbreak {
+	font-size: 0px;
+}
+
 @media (max-width: 660px) {
 	.ytembed {
 		height: 0%;
+	}
+	ol {
+		margin-left: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.listbg {
+		position: relative;
+		left: 1.5em;
+		max-width: 1050px;
+		margin-left: 0px;
+		padding-left: 0.2em;
+	}
+	.exbreak {
+		font-size: 2.5rem;
 	}
 }
 
