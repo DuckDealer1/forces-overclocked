@@ -340,6 +340,9 @@ b {
 	.ytembed {
 		height: 0%;
 	}
+	.reimlogo {
+		padding-right: 0px;
+	}
 	ol {
 		margin-left: 0px;
 		padding-left: 0px;
