@@ -304,6 +304,34 @@ h2 {
 	max-width: 100%;
 }
 
+.reimlogo {
+	padding-right: 2em;
+}
+
+ol {
+	margin-left: 1.6em;
+	padding-left: 0px;
+	padding-right: 60px;
+}
+
+li {
+	margin-bottom: 1em;
+}
+
+b {
+	font-family: Futura Bold;
+	color: #e8d8c0;
+}
+
+.listbg {
+	background: url(img/bg.png);
+	padding: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-left: 3.2em;
+	margin-bottom: 1em;
+}
+
 @media (max-width: 660px) {
 	.ytembed {
 		height: 0%;
